@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_headers",
+  "elementLabel" : "Container Headers",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "rich_text_header",
+      "elementLabel" : "Rich text header",
+      "propertyValues" : {
+        "html" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "&lt;div&gt;\n&lt;table style=\"width: 1615px;\" border=\"0\"&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td id=\"TopBannerHolder\" style=\"width: 1609px;\" colspan=\"2\"&gt;\n&lt;div&gt;\n&lt;div id=\"MSOZoneCell_WebPartWPQ2\"&gt;\n&lt;div&gt;\n&lt;div id=\"WebPartWPQ2\"&gt;\n&lt;div&gt;&lt;span style=\"font-size: 18pt;\"&gt;DOD Information System for Security(Visit Requests) - formerly JPAS&lt;/span&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr id=\"ColumnHolder\"&gt;\n&lt;td id=\"leftColumn\" style=\"width: 1285.19px;\"&gt;\n&lt;div&gt;\n&lt;div id=\"MSOZoneCell_WebPartWPQ4\"&gt;\n&lt;div&gt;\n&lt;div id=\"WebPartWPQ4_ChromeTitle\"&gt;\n&lt;h2&gt;&lt;span style=\"font-size: 18pt; background-color: #608969;\"&gt;Submitting a Visit Requests Visit Access Request(VAR)&lt;/span&gt;&lt;span id=\"WebPartCaptionWPQ4\"&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;span id=\"WebPartTitleWPQ4\" title=\"Submitting a JPAS Request - Allows authors to enter rich text content.\"&gt;&lt;/span&gt;&lt;/div&gt;\n&lt;div id=\"WebPartWPQ4\"&gt;\n&lt;div&gt;\n&lt;p style=\"margin: 0in 0in 12pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;Click 'New item' below to request a Visit Requests VAR.&amp;nbsp; With the submission of this form you are requesting that your eligibility (clearance) and access be sent to an outside organization. &lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"margin: 0in 0in 12pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;Requests need to be submitted five (5) days prior to the day of the visit. If the visit request falls inside the five day window please contact the POCs listed after entering the below request.​​&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"margin: 0in 0in 12pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;When submitting visit request, you are required to provide all of the following:&lt;/span&gt;&lt;/p&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"disc\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Security Management Office (SMO) Code at the Hosting Location:&lt;/strong&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"circle\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;If you are going to a non-DoD agency that does not use Visit Requests input &amp;ldquo;PLA&amp;rdquo; and submit to SSO.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Visit Name (20 Character Limit):&lt;/strong&gt;&lt;/li&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"circle\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;Example: ARL/SOCOM/XYZ Conf.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Dates of Visit (First and Last Date):&lt;/strong&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"circle\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;If the visit needs to be PERM CERT'ed please input the last day of the visit as no later than 1 year from the first day of the visit.)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/ul&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Overall Access Level for the Event (e.g. Unclass, Secret, TS, SCI):&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"disc\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Reason for Visit (Meeting, Conference, Training, etc):&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Technical POC Name (First and Last Name):&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Technical POC Phone Number​​:&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Technical POC Email:&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Visitor(s) Attending:&lt;/strong&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;&amp;nbsp;List email address for all of attendees.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h1&gt;&lt;span style=\"background-color: #608969; font-size: 18pt; color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));\"&gt;My Visit Access Request&lt;/span&gt;&lt;/h1&gt;\n&lt;/div&gt;",
+            "comment" : ""
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    }, {
+      "elementId" : "button_bare_all_requests",
+      "elementLabel" : "Button bare All Requests",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "hideBlockPadding" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "highContrast" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "primary"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "All Requests",
+            "comment" : ""
+          }
+        },
+        "showInlinePadding" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        },
+        "iconStart" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "iconEnd" : {
+          "type" : "JSON_LITERAL",
+          "value" : "list-outline"
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "clidhhgymkaaaaddbbddlhhrdaaeenmflbb",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON_BARE#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON_BARE#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_1234_diss.NAV_ITEM_SELECTED_RELAY_31ccfbacaf32ad105732f269a0274909",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "staff"
+                },
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "groupName" : {
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "groupName" ]
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "queryString" : {
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "queryString" ]
+                      }
+                    }
+                  }
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                }
+              }
+            },
+            "sysId" : "7f539cb0aff2ad105732f269a027490c"
+          },
+          "operation" : null,
+          "targetId" : "clidiiaazffaaaaddeddlhhrxlzbnqir",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "67d8bc45906c355a3100c0782f45487b",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "STATE_BINDING",
+        "binding" : {
+          "address" : [ "hideAllRequests" ]
+        }
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_bare_all_requests","styles":{}},{"element_id":"rich_text_header","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+}, {
+  "elementId" : "container_3",
+  "elementLabel" : "Container 3",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "list_requests",
+      "elementLabel" : "List Requests",
+      "propertyValues" : {
+        "hideUnnecessaryRowSelectors" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "selectedListId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "menuSelection" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "My_List"
+        },
+        "hideLastRefreshedText" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "limit" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hideColumnReorder" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideMenuButton" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "listMenuOpen" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideHighlightedValues" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRowSelector" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "recordSelectedTable" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideCheckboxHover" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLastPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePages" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRowCount" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : "ORDERBYDESCsys_created_on"
+        },
+        "hideFilterPanel" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideHighlightContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLimitSelector" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideEmptyStateImage" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideQuickEdit" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideRefreshButton" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "groupByField" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "listTitle" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "fixedQuery" : {
+          "type" : "JSON_LITERAL",
+          "value" : "active=true^creatorDYNAMIC90d1921e5f510100a9ad2572f2b477fe"
+        },
+        "hideDotwalk" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tiny" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideDeclarativeActions" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideRange" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "page" : {
+          "type" : "JSON_LITERAL",
+          "value" : 1
+        },
+        "hidePanelRestore" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "highlightedValueConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "maxCharLimit" : {
+          "type" : "JSON_LITERAL",
+          "value" : 4000
+        },
+        "columns" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideLinks" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "wordWrap" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideTitleRowCount" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideColumnFiltering" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePanelAdvanced" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "daClientActionContract" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "error" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "maxColumns" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hidePreviousPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideOptionToSaveAs" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePanelFooter" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "actionConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "isRefList" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideInlineEditing" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hidePanelConditionDelete" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePagination" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_1234_jpas_visit_access_requests"
+        },
+        "hideColumnGrouping" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideCellFilter" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideNextPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "recordSelectedSysId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedView" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideColumnResizing" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshRequested" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "listRefreshed" ],
+            "category" : "props"
+          }
+        },
+        "highlightContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "patterns" : [ ],
+            "color" : ""
+          }
+        },
+        "hideListSharing" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "headerSize" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "hideSelectAll" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideTitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideDragDrop" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideColumnSorting" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "overrideWordWrapUserPref" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideFirstPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "selectedRecords" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "headingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : 1
+        },
+        "recordSelectedQuery" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hidePersonalization" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "clhkuvnowaaaaeeggddlhhriiedddeiiffz",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_1234_diss.NAV_ITEM_SELECTED_RELAY_31ccfbacaf32ad105732f269a0274909",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "new-request"
+                },
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "table" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "table" ]
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : null
+              }
+            },
+            "sysId" : "7f539cb0aff2ad105732f269a027490c"
+          },
+          "operation" : null,
+          "targetId" : "clhkuvnowaaaaeehhddlhhrisuccffhrv",
+          "type" : "EVENT"
+        } ]
+      }, {
+        "eventMappingId" : "clhksciiieaaaahdddlhhrrliygitcc",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "d09d75cdaf3ee9103527f269a027498a"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "clhksciiieaaaaheddlhhreebhpyffzn",
+          "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_1234_diss.NAV_ITEM_SELECTED_RELAY_31ccfbacaf32ad105732f269a0274909",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "view-request"
+                },
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "table" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "table" ]
+                      }
+                    },
+                    "sysId" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "sys_id" ]
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : null
+              }
+            },
+            "sysId" : "7f539cb0aff2ad105732f269a027490c"
+          },
+          "operation" : null,
+          "targetId" : "clidfggbbxggaaaadcddlhhrjgygubjj",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "66ee7d86e81f696c9f9be19d8424cc0d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    }, {
+      "elementId" : "button_bare_new",
+      "elementLabel" : "Button bare New",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "hideBlockPadding" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "highContrast" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "primary"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "new item",
+            "comment" : ""
+          }
+        },
+        "showInlinePadding" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        },
+        "iconStart" : {
+          "type" : "JSON_LITERAL",
+          "value" : "circle-plus-outline"
+        },
+        "iconEnd" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "clicccoknaaaaahhtddlhhrmognabbbe",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON_BARE#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON_BARE#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "d09d75cdaf3ee9103527f269a027498a"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "clicccoknaaaaahhuddlhhrupddaanggwee",
+          "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_1234_diss.NAV_ITEM_SELECTED_RELAY_31ccfbacaf32ad105732f269a0274909",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "new-request"
+                },
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "formRefresh" : {
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "formRefreshed" ]
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : null
+              }
+            },
+            "sysId" : "7f539cb0aff2ad105732f269a027490c"
+          },
+          "operation" : null,
+          "targetId" : "clicccoytyaaaaiibddlhhrmzkhhasxk",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "67d8bc45906c355a3100c0782f45487b",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_bare_new","styles":{}},{"element_id":"list_requests","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "b997a84053021010cbc2ddeeff7b1228",
+    "type" : "COMPOSITE"
+  },
+  "dependencies" : { },
+  "elementId" : "look_up_records_group_member",
+  "elementLabel" : "Look Up Group Member",
+  "eventMappings" : [ {
+    "eventMappingId" : "clidiivaafhaaaafhddlhhrdddoeerlhhaa",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "342ec0ebaf0721103527f269a0274919"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clidiivaafiaaaafiddlhhreeiibbpjffhb",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "sys_user_grmember"
+    },
+    "encodedQuery" : {
+      "type" : "CLIENT_TRANSFORM",
+      "transform" : {
+        "operands" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "JSON_LITERAL",
+            "value" : "group.nameSTARTSWITHDISS^user="
+          }, {
+            "type" : "CONTEXT_BINDING",
+            "binding" : {
+              "address" : [ "user", "sys_id" ],
+              "category" : "session"
+            }
+          } ]
+        },
+        "operator" : "CONCAT"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "group.name"
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1000"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
+        <dispatched_events>7f539cb0aff2ad105732f269a027490c</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"container_headers","styles":{"width":"100%"}},{"element_id":"container_3","styles":{"width":"100%"}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home default</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "listRefreshed",
+  "label" : "listRefreshed",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "&lt;div&gt;\n&lt;table style=\"width: 1615px;\" border=\"0\"&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td id=\"TopBannerHolder\" style=\"width: 1609px;\" colspan=\"2\"&gt;\n&lt;div&gt;\n&lt;div id=\"MSOZoneCell_WebPartWPQ2\"&gt;\n&lt;div&gt;\n&lt;div id=\"WebPartWPQ2\"&gt;\n&lt;div&gt;&lt;span style=\"font-size: 18pt;\"&gt;DOD Information System for Security(Visit Requests) - formerly JPAS&lt;/span&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr id=\"ColumnHolder\"&gt;\n&lt;td id=\"leftColumn\" style=\"width: 1285.19px;\"&gt;\n&lt;div&gt;\n&lt;div id=\"MSOZoneCell_WebPartWPQ4\"&gt;\n&lt;div&gt;\n&lt;div id=\"WebPartWPQ4_ChromeTitle\"&gt;\n&lt;h2&gt;&lt;span style=\"font-size: 18pt; background-color: #608969;\"&gt;Submitting a Visit Requests Visit Access Request(VAR)&lt;/span&gt;&lt;span id=\"WebPartCaptionWPQ4\"&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;span id=\"WebPartTitleWPQ4\" title=\"Submitting a JPAS Request - Allows authors to enter rich text content.\"&gt;&lt;/span&gt;&lt;/div&gt;\n&lt;div id=\"WebPartWPQ4\"&gt;\n&lt;div&gt;\n&lt;p style=\"margin: 0in 0in 12pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;Click 'New item' below to request a Visit Requests VAR.&amp;nbsp; With the submission of this form you are requesting that your eligibility (clearance) and access be sent to an outside organization. &lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"margin: 0in 0in 12pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;Requests need to be submitted five (5) days prior to the day of the visit. If the visit request falls inside the five day window please contact the POCs listed after entering the below request.​​&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"margin: 0in 0in 12pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;When submitting visit request, you are required to provide all of the following:&lt;/span&gt;&lt;/p&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"disc\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Security Management Office (SMO) Code at the Hosting Location:&lt;/strong&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"circle\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;If you are going to a non-DoD agency that does not use Visit Requests input &amp;ldquo;PLA&amp;rdquo; and submit to SSO.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Visit Name (20 Character Limit):&lt;/strong&gt;&lt;/li&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"circle\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;Example: ARL/SOCOM/XYZ Conf.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Dates of Visit (First and Last Date):&lt;/strong&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"circle\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;If the visit needs to be PERM CERT'ed please input the last day of the visit as no later than 1 year from the first day of the visit.)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/ul&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Overall Access Level for the Event (e.g. Unclass, Secret, TS, SCI):&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul style=\"margin-bottom: 0in; margin-top: 0px;\" type=\"disc\"&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Reason for Visit (Meeting, Conference, Training, etc):&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Technical POC Name (First and Last Name):&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Technical POC Phone Number​​:&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Technical POC Email:&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=\"font-family: Tahoma, sans-serif;\"&gt;&lt;strong&gt;Visitor(s) Attending:&lt;/strong&gt;&lt;span style=\"font-family: Tahoma, sans-serif;\"&gt;&amp;nbsp;List email address for all of attendees.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h1&gt;&lt;span style=\"background-color: #608969; font-size: 18pt; color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));\"&gt;My Visit Access Request&lt;/span&gt;&lt;/h1&gt;\n&lt;/div&gt;",
+  "comment" : ""
+}, {
+  "message" : "All Requests",
+  "comment" : ""
+}, {
+  "message" : "new item",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "formRefreshed",
+  "label" : "formRefreshed",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "999999"
+  }
+}, {
+  "name" : "hideAllRequests",
+  "label" : "hideAllRequests",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "queryString",
+  "label" : "queryString",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "groupName",
+  "label" : "groupName",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-05-11 12:39:25</sys_created_on>
+        <sys_id>31ccfbacaf32ad105732f269a0274909</sys_id>
+        <sys_mod_count>98</sys_mod_count>
+        <sys_name>Home default</sys_name>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_ux_macroponent_31ccfbacaf32ad105732f269a0274909</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-08-31 11:50:41</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=31ccfbacaf32ad105732f269a0274909"/>
+</record_update>

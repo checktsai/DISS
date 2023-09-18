@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>set_email_subject</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+    var status = current.getValue('status');
+    var msg = 'Visit Request to '+current.getValue('visit_name');
+    switch (status) {
+        case "awaiting_processing":
+            msg = msg+': Received and Awaiting Processing';
+            break;
+        case "processed":
+            msg = msg+': Request complete';
+            break;
+        case "pending_update":
+            msg = msg+': Pending Additional Information from the Requestor';
+            break;
+        default:
+            msg = msg+': Rejected';
+    }
+    email.setSubject(msg);
+
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-06-06 11:07:10</sys_created_on>
+        <sys_id>00012d09af13e1508b18f269a027499c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>set_email_subject</sys_name>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_script_email_00012d09af13e1508b18f269a027499c</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-06-06 11:11:12</sys_updated_on>
+    </sys_script_email>
+</record_update>

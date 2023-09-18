@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="owning_group_name" label="Owning Group Name" language="en" table="x_1234_jpas_visit_access_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>owning_group_name</element>
+            <help/>
+            <hint/>
+            <label>Owning Group Name</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <plural>Owning Group Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-06-07 18:00:21</sys_created_on>
+            <sys_id>5a29482daf1365103527f269a027494e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Owning Group Name</sys_name>
+            <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+            <sys_update_name>sys_documentation_x_1234_diss_visit_access_requests_owning_group_name_en</sys_update_name>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-06-07 18:00:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

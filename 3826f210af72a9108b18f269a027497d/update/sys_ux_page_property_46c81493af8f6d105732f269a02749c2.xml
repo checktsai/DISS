@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Visit Requests Portal">93acf7acaf32ad105732f269a0274985</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-05-31 19:22:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>46c81493af8f6d105732f269a02749c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_ux_page_property_46c81493af8f6d105732f269a02749c2</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-05-31 19:24:50</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1234_diss.93acf7acaf32ad105732f269a0274985.root.chrome_header</unique_name>
+        <value>{"privatePage":{"userPrefsEnabled":true,"searchEnabled":false,"currentScreenLinkConfiguration":{},"globalTools":{"collapsingMenuId":0,"primaryItems":[],"secondaryItems":[]}},"publicPage":{"menuEnabled":false,"searchEnabled":false,"logoRoute":{},"actionButtons":[]}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=46c81493af8f6d105732f269a02749c2"/>
+</record_update>

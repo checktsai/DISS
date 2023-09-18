@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="api_version" label="API Version" language="en" table="var__m_connection_attributes_abdaeeb7af4761103527f269a0274906">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>api_version</element>
+            <help/>
+            <hint/>
+            <label>API Version</label>
+            <language>en</language>
+            <name>var__m_connection_attributes_abdaeeb7af4761103527f269a0274906</name>
+            <plural>API Version</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-06-02 19:17:47</sys_created_on>
+            <sys_id>bfea22f7af4761103527f269a027490e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>API Version</sys_name>
+            <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+            <sys_update_name>sys_documentation_var__m_connection_attributes_abdaeeb7af4761103527f269a0274906_api_version_en</sys_update_name>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-06-02 19:17:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

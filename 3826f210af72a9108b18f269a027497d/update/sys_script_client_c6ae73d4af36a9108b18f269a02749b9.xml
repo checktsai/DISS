@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>https://gus.arl.army.mil/browse/AISP-1908</description>
+        <field>poc_phone</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onChangePOCPhone</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var err_message = " is an invalid phone number";
+	var err_field = control.id;
+	g_form.hideErrorBox(err_field);
+    var regex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+    if (regex.test(newValue)) {
+        return true;
+    } else {
+        g_form.showFieldMsg(err_field, newValue + err_message, 'error');
+        return false;
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-05-10 18:09:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6ae73d4af36a9108b18f269a02749b9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>onChangePOCPhone</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_script_client_c6ae73d4af36a9108b18f269a02749b9</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-05-10 18:28:53</sys_updated_on>
+        <table>x_1234_jpas_visit_access_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

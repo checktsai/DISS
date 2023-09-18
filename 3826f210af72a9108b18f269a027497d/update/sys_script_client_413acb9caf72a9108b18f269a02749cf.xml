@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>https://gus.arl.army.mil/browse/AISP-1908&#13;
+OnChnage does work on UI Builder.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onSubmitPOCEmailPhone</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate c   //Type appropriate comment here, and begin script below
+    var err_message = " is not an invalid Email Address entered in Requestor's email. Format should be like: abc@army.mil";
+    var email_regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    var phone_regex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+
+    var email = g_form.getValue('poc_email');
+    var phone = g_form.getValue('poc_phone');
+    var isValid = true;
+    if (!email_regex.test(email)) {
+        g_form.addErrorMessage(email + ' is an invalid Email Address');
+        isValid = false;
+    }
+    if (!phone_regex.test(phone)) {
+        g_form.addErrorMessage(phone + ' is  an invalid Phone number');
+        isValid = false;
+    }
+    return isValid;
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-05-10 14:20:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>413acb9caf72a9108b18f269a02749cf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>onSubmitPOCEmailPhone</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_script_client_413acb9caf72a9108b18f269a02749cf</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-05-10 18:28:01</sys_updated_on>
+        <table>x_1234_jpas_visit_access_requests</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

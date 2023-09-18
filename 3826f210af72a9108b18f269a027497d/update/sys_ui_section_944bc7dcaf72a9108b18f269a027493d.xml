@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Visit Request" section_id="944bc7dcaf72a9108b18f269a027493d" sys_domain="global" table="x_1234_jpas_visit_access_requests" version="3" view="new_request">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:20</sys_created_on>
+            <sys_id>405adf43af8b6d105732f269a0274901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:20</sys_updated_on>
+            <text>unit/organization/event 
+Example: ARL/SOCOM/XYZ Conf</text>
+            <type display_value="">5fd73f2677703300ac0a7c5168106102</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visit_name</element>
+            <position>0</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>505adf43af8b6d105732f269a0274956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>405adf43af8b6d105732f269a0274901</element>
+            <position>1</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>585adf43af8b6d105732f269a0274956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_date_of_visit</element>
+            <position>2</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>5c5adf43af8b6d105732f269a0274956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_date_of_visit</element>
+            <position>3</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>505adf43af8b6d105732f269a0274957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overall_access_level_for_the_event</element>
+            <position>4</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>545adf43af8b6d105732f269a0274957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_visit</element>
+            <position>5</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>585adf43af8b6d105732f269a0274957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site</element>
+            <position>6</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>5c5adf43af8b6d105732f269a0274957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>smo_code</element>
+            <position>7</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>505adf43af8b6d105732f269a0274958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attendees</element>
+            <position>8</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>545adf43af8b6d105732f269a0274958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>poc_name</element>
+            <position>9</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>585adf43af8b6d105732f269a0274958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>poc_phone</element>
+            <position>10</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>5c5adf43af8b6d105732f269a0274958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>poc_email</element>
+            <position>11</position>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-31 14:49:21</sys_created_on>
+            <sys_id>505adf43af8b6d105732f269a0274959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Visit Request" display_value="Visit Request" name="x_1234_jpas_visit_access_requests" sys_domain="global" view="7810db6a0a0a0b3440d2382eb2207a4f">944bc7dcaf72a9108b18f269a027493d</sys_ui_section>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-31 14:49:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Visit Request</caption>
+            <header>false</header>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:24:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>944bc7dcaf72a9108b18f269a027493d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_1234_jpas_visit_access_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+            <sys_update_name>sys_ui_section_944bc7dcaf72a9108b18f269a027493d</sys_update_name>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-12 14:00:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="new_request" name="new_request">7810db6a0a0a0b3440d2382eb2207a4f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

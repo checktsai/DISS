@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home default">31ccfbacaf32ad105732f269a0274909</macroponent>
+        <name>processGroup</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var queryString = '';
+    if (api.data.look_up_records_group_member.results.length = 1) {
+        var groupName=api.data.look_up_records_group_member.results[0].group.displayValue.split(" ")[1];
+        api.setState('groupName', groupName);
+        switch (groupName) {
+            case 'ALC':
+                queryString = 'active=true^siteINalc,arl_central,arl_south';
+                break;
+            case 'APG':
+                queryString = 'active=true^siteINapg,arl_northeast,arl_west';
+                break;
+            case 'ARO':
+                queryString = 'active=true^siteINaro';
+                break;
+            default:
+                queryString = 'active=true';
+        }
+        api.setState('queryString', queryString);
+        api.setState('hideAllRequests', false);
+        
+    }else {
+        api.setState('hideAllRequests', true);
+    }
+    
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-06-01 13:14:14</sys_created_on>
+        <sys_id>342ec0ebaf0721103527f269a0274919</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>processGroup</sys_name>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_ux_client_script_342ec0ebaf0721103527f269a0274919</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-06-01 14:59:49</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

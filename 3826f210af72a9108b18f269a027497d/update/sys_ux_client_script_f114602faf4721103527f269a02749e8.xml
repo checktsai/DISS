@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Staff default">44380ce3af0721103527f269a02749ef</macroponent>
+        <name>stylized_text_1/text</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+
+    switch (api.context.props.groupName) {
+        case 'ALC':
+            return 'Service Area:ALC, ARL Central, ARL South';
+        case 'APG':
+            return 'Service Area:APG, ARL Northeast, ARL West';
+        case 'ARO':
+            return 'Service Area:ARO';
+        default:
+            return 'Service Area:All';
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-06-01 14:50:09</sys_created_on>
+        <sys_id>f114602faf4721103527f269a02749e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>stylized_text_1/text</sys_name>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_ux_client_script_f114602faf4721103527f269a02749e8</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-06-01 14:50:09</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "x_1234_jpas_visit_access_requests",
+  "sysId" : "00050f1aaf8030100ca51ae54d2749ba",
+  "refresh" : "1edcc8e3af872110d08bf269a02749cd",
+  "queryString" : "active=true",
+  "groupName" : "SSO"
+}</macroponent_config>
+        <screen display_value="Edit Request default">6ddb812fafc721103527f269a0274980</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>chihsheng.tsai</sys_created_by>
+        <sys_created_on>2023-06-01 17:43:49</sys_created_on>
+        <sys_id>addb812fafc721103527f269a0274988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_addb812fafc721103527f269a0274988</sys_update_name>
+        <sys_updated_by>chihsheng.tsai</sys_updated_by>
+        <sys_updated_on>2023-06-01 19:35:24</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

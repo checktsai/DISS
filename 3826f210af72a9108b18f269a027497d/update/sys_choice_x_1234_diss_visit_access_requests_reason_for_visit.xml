@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reason_for_visit" table="x_1234_jpas_visit_access_requests" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reason_for_visit</element>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_id>bef6431caf72a9108b18f269a0274939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reason_for_visit</sys_name>
+            <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
+            <sys_update_name>sys_choice_x_1234_diss_visit_access_requests_reason_for_visit</sys_update_name>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inspection</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6f6431caf72a9108b18f269a0274939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>inspection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6f6431caf72a9108b18f269a027493b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Planning Conference</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36f6431caf72a9108b18f269a027493c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>planning_conference</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Seminar</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2f6431caf72a9108b18f269a027493d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>seminar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Symposium</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32f6431caf72a9108b18f269a027493e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>symposium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TDY</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bef6431caf72a9108b18f269a027493e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>tdy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ef6431caf72a9108b18f269a027493f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1234_jpas_visit_access_requests</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>chihsheng.tsai</sys_created_by>
+            <sys_created_on>2023-05-10 14:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baf6431caf72a9108b18f269a0274940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chihsheng.tsai</sys_updated_by>
+            <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
