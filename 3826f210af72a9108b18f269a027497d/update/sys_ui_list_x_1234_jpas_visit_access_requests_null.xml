@@ -161,21 +161,21 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>chihsheng.tsai</sys_created_by>
-            <sys_created_on>2023-06-01 14:57:51</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 16:17:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>637617d4afb2a9108b18f269a02749ef</sys_id>
+            <sys_id>095dc2ee471971100e73a3e7826d43f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1234_jpas_visit_access_requests</sys_name>
             <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
             <sys_policy/>
             <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
-            <sys_update_name>sys_ui_list_x_1234_diss_visit_access_requests_null</sys_update_name>
-            <sys_updated_by>chihsheng.tsai</sys_updated_by>
-            <sys_updated_on>2023-06-01 14:57:51</sys_updated_on>
+            <sys_update_name>sys_ui_list_x_1234_jpas_visit_access_requests_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 16:17:18</sys_updated_on>
             <sys_user/>
-            <view/>
+            <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

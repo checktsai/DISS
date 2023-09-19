@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-18 10:58:33</sys_created_on>
-        <sys_id>375449aa97113110b25ef911f053afc6</sys_id>
+        <sys_id>b1eff5e2471971100e73a3e7826d43b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1234_jpas_visit_access_requests</sys_name>
         <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Visit Requests">3826f210af72a9108b18f269a027497d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_375449aa97113110b25ef911f053afc6</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_b1eff5e2471971100e73a3e7826d43b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-09-18 10:58:33</sys_updated_on>
     </ua_table_licensing_config>

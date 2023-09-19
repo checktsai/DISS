@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>chihsheng.tsai</sys_created_by>
         <sys_created_on>2023-05-10 13:13:24</sys_created_on>
-        <sys_id>18ba76d0af72a9108b18f269a027492a</sys_id>
         <sys_name>First Date of Visit</sys_name>
         <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
         <sys_policy/>

@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>chihsheng.tsai</sys_created_by>
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
-            <sys_id>bef6431caf72a9108b18f269a0274939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>reason_for_visit</sys_name>
             <sys_package display_value="Visit Requests" source="x_1234_diss">3826f210af72a9108b18f269a027497d</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f6f6431caf72a9108b18f269a0274939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b6f6431caf72a9108b18f269a027493b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>36f6431caf72a9108b18f269a027493c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b2f6431caf72a9108b18f269a027493d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>32f6431caf72a9108b18f269a027493e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bef6431caf72a9108b18f269a027493e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
@@ -150,7 +143,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3ef6431caf72a9108b18f269a027493f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
@@ -170,7 +162,6 @@
             <sys_created_on>2023-05-10 14:05:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>baf6431caf72a9108b18f269a0274940</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chihsheng.tsai</sys_updated_by>
             <sys_updated_on>2023-05-10 14:05:53</sys_updated_on>
